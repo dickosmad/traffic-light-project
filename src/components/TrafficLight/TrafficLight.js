@@ -5,7 +5,6 @@ import React from "react";
 export default class TrafficLight extends React.Component {
   state = {
     color: "red",
-    disabled: true,
   };
   handleColorChange = (color) => {
     this.setState({ color: color });
